@@ -1,0 +1,20 @@
+
+/* ※NOTE: this file is not applying styling, this is just an example */
+/* USE THIS ON INDUSTRY PRODUCT LIST PAGE! */
+.centerDiv{
+    margin: auto;
+    padding: 5px;
+  
+  }
+  
+  
+  .table > div {
+    padding: 8px;
+  margin: 0 20px;
+  }
+  
+  .railProductsImgs {
+  
+    width: 100%;
+  
+  }

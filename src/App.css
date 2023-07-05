@@ -7,6 +7,8 @@
   pointer-events: none;
 }
 
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -36,3 +38,1486 @@
     transform: rotate(360deg);
   }
 }
+
+
+.center {
+
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.helloBox {
+  border: 1px solid black;
+  
+  margin: auto;
+  width: 30vw;
+  
+  padding: 10px;
+}
+
+/* NAVBAR START */
+
+.navBar{
+  
+  background: linear-gradient(to right, rgb(86, 166, 255), rgb(132, 169, 210), rgb(255,255,255));
+  color: #000;
+  /* padding-left: 85px;
+  padding-right: 85px; */
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+
+}
+
+
+.navBarTop {
+  display: flex;
+  justify-content: end;
+  border-bottom: 1px solid #0a0a0a;
+
+}
+
+.navTopPhoneAndMap {
+
+  padding: 5px 50px 5px 0px;
+
+}
+
+.ncaGmapLink {
+  text-decoration: none;
+  color: inherit;
+}
+.mapMarker {
+
+  width: 17px;
+  position: relative; 
+  top: 3px;
+}
+
+.navTop2 {
+  padding-right: 333px;
+}
+
+.navBarBottom {
+  display: flex;
+  justify-content: center;
+
+}
+.ncaWhiteLogo {
+  padding-top: 5px;
+ 
+  
+  }
+/* .navBottomInnerBox{
+  display: flex;
+} */
+
+.navUnorderedList {
+  display: flex;
+  align-items: center;
+  padding-right: 48px;
+  list-style: none;
+  text-transform: uppercase;
+  /* font-weight: bold; */
+ 
+}
+
+.industriesButton {
+
+  background-color: transparent;
+  border-width: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  padding: 0;
+}
+
+
+
+
+
+.inudstriesMenuBox {
+  /* margin: auto;
+  width: 150px;
+  position: relative;
+  right: -331px;
+  bottom: 20px;
+  text-align: left; */
+
+
+  margin: auto;
+  width: 250px;
+  position: absolute;
+  right: -56px;
+  top: 25px;
+  text-align: left;
+  box-shadow: 8px 7px 5px black;
+}
+
+
+.inudstriesMenuBox > div {
+  background-color: #CEE3FF;
+}
+
+.inudstriesMenuBox > div > a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.menuBoxForRelative {
+
+  position: relative;
+}
+
+.industriesLinkItem {
+  border: 1px solid black;
+  background-color: beige;
+  text-align: center;
+}
+
+/* NAVBAR END */
+
+.ncaGoogleMap {
+  border: 0px none;
+  width: 50%;
+  height: 500px;
+}
+
+.contactUsBox {
+
+  width: 50%;
+  border: 3px solid black;
+  background-color: #56A6FF;
+  box-shadow: 5px 5px grey;
+}
+
+.contactUsMsgBox {
+  width: 74%;
+  height: 299px;
+
+}
+  
+  .industriesClusterImage {
+     
+    width: 320px ;
+    height: 200px ;
+  }
+  @media only screen and (max-width: 1726px) {
+    .industriesClusterImage {
+     
+      width: 256px !important;
+      height: 160px !important;
+    }
+
+  }
+
+  .homeIndustryText {
+
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    
+    }
+    
+  @media only screen and (max-width: 1500px) {
+    .industriesClusterImage {
+     
+      width: 160px !important;
+      height: 100px !important;
+    }
+
+    .homeIndustryText {
+      font-size: 14px;
+      color: black;
+    }
+
+    .ncaWhiteLogo {
+      padding-top: 9.5px;
+      width: 41vw;
+      padding-bottom: 9.5px;
+    }
+
+  }
+
+
+
+
+@media only screen and (max-width: 1218px) {
+
+  .aboutUsMainBox {
+    padding-top: 200px !important;
+ 
+    
+  }
+
+  .contactUsMainBox {
+
+    padding-top: 200px !important;
+  }
+
+  .ncaHome {
+    padding-top: 156px !important;
+  }
+
+  .ncaGoogleMap {
+    border: 0px none; 
+    width: 80%;
+    height: 80vw;
+    }
+
+
+    
+}
+
+@media only screen and (max-width: 1216px) {
+
+
+
+
+  .navUnorderedList {
+    flex-direction: column;
+   
+  }
+
+  .navListItem {
+font-size: 15px !important;
+
+  }
+
+  .industriesBoxHolder {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+  .ncaLogoBox {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+.ncaWhiteLogo {
+width: 55vw;
+
+}
+
+
+.navBarBottom {
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+  }
+
+  .navUnorderedList {
+
+    flex-direction: row;
+    justify-content: center;
+    
+    }
+
+.industryRailCarBannerCover {
+
+padding-top: 101px;
+
+}
+
+.industryPrinterBannerCover {
+
+padding-top: 101px;
+
+}
+
+.industryPlantBannerCover {
+
+padding-top: 101px;
+
+}
+
+.industryConstructionBannerCover {
+
+  padding-top: 101px;
+
+}
+
+.industryPlasticOpticalFiberBannerCover {
+
+  padding-top: 101px;
+}
+
+
+.ncaEvents {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  align-content: start;
+}
+    
+  }
+
+
+
+@media only screen and (max-width: 670px) {
+
+.ncaWhiteLogo {
+width: 60vw;
+
+}
+  }
+
+  @media only screen and (max-width: 1108px){
+    .navTop2 {
+      padding-right: 0;
+      
+    }
+
+    .navBarTop {
+   
+      justify-content: center;
+      flex-direction: column;
+  }
+  .navTopPhoneAndMap {
+    padding: 5px 0px 5px 0px;
+  }
+
+  }
+
+@media only screen and (max-width: 600px){
+  .ncaWhiteLogo {
+    width: 90vw;
+    padding: 10px 0 0 0;
+   
+    
+    }
+
+    /* .navListItem {
+      border: 1px solid black;
+      background-color: rgb(22, 117, 212);
+      padding: 15px 1px 15px 1px !important;
+      font-size: 17px !important;
+      font-weight: bold;
+      height: 17px;
+      width: 87px;
+      width: 40%;
+      color: white !important;
+      
+        } */
+
+        .navTopPhoneAndMap {
+          font-size: 12px;
+        }
+
+        .navUnorderedList {
+          padding:  0 10px;
+        }
+
+      
+
+}
+
+
+
+.navListItem {
+
+padding: 0 10px;
+font-size: 20px;
+font-family: sans-serif;
+text-decoration: none;
+color: black;
+
+-webkit-transition: color 0.8s;
+
+}
+
+.navListItem:hover{
+ color: rgb(89, 156, 233);
+ transition: 0.5s;
+}
+
+/* MAIN PAGE STYLING START */
+.containerSlide {
+  width: 650px;
+  margin: auto;
+padding-bottom: 20px;
+}
+
+.containerSlide img {
+  height: 500px;
+
+}
+
+/* issue with otherslides overlapping */
+.zoomInStyling {
+  animation-name: slowZoom;
+  animation-duration: 5s;
+  animation-iteration-count:infinite;
+  
+animation-timing-function: ease;
+
+}
+
+@keyframes slowZoom {
+
+  100%{ transform:scale(1.07, 1.07)}
+0%{transform: scale(1, 1)}
+
+}
+
+.sliderImages {
+ 
+}
+
+
+ul.indicators {
+  padding-left: 0;
+}
+
+
+
+
+.mainPageSlideShowTopDiv {
+
+  width: 100%
+}
+
+.homeIndustriesMainBox {
+
+  margin-bottom: 100px;
+  
+}
+
+
+
+
+.industriesSperator {
+  background-color: #4c87ca;
+  opacity: 1;
+  height: 2px;
+  width: 50px;
+  margin: 20px auto;
+
+}
+
+
+.homeHorizontalRule {
+
+  background-color: #dbdbdb;
+  height: 1px;
+  width: 60%;
+  margin: auto;
+}
+
+.industriesItem {
+  padding: 0 15px;
+}
+
+.industriesBoxHolder {
+  display: flex;
+  justify-content: center;
+}
+
+.industriesImg4 {
+width: 320px;
+height: 200px;;
+
+}
+
+/* MAIN PAGE STYLING END */
+
+
+/* .ncaWhiteLogo {
+
+  border: 1px solid black;
+
+} */
+.ncaHome {
+
+  padding-top: 100px;
+  /* background: rgb(222, 222, 222); */
+  
+
+}
+
+
+
+.contactUsMainBox {
+  padding-top: 100px;
+  padding-bottom: 200px;
+  background: rgb(222, 222, 222);
+  /* height: 700px; */
+
+}
+
+
+@media only screen and (max-width: 1110px)  {
+  .contactUsMainBox {
+    padding-top: 200px;
+
+  
+  }
+
+
+}
+
+
+/* MSIC START */
+.textBorder {
+  -webkit-text-stroke: .7px black;
+}
+
+/* MISC START */
+/* ABOUT US START */
+.aboutUsMainBox {
+  padding-top: 100px;
+  /* background: rgb(222, 222, 222); */
+  
+}
+.aboutUsSperator {
+
+   background-color: #4c87ca;
+   opacity: 1;
+   height: 2px;
+   width: 50px;
+   margin: auto;
+   margin-bottom: 20px;
+   
+}
+.vertRule {
+
+  margin: 20px;
+  color: rgba(115, 112, 112, 0.23);
+}
+
+ .aboutUsBlurbOne, .aboutUsBlurbTwo {
+  text-align: left;
+  padding: 10px;
+  width: 50%;
+ }
+
+ .aboutUsBlurbOne p, .aboutUsBlurbTwo li {
+   font-size: 20px;
+ }
+
+ .ncOutlineFirstParagaph {
+  text-indent: 40px;
+ }
+
+.aboutUsBlurbOneAndTwo {
+  display: flex;
+  margin: auto;
+  margin-bottom: 70px;
+  width: 70%;
+  padding: 10px;
+  background-color: rgb(240 240 240);
+  border-radius: 1%;
+
+  border: 0px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+
+}
+
+@media only screen and (max-width: 1110px) {
+
+  .aboutUsBlurbOneAndTwo{
+    width: 85%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutUsBlurbOne, .aboutUsBlurbTwo {
+    width: 85%
+  }
+
+
+  .aboutUsMainBox {
+    padding-top: 200px;
+    /* background: rgb(222, 222, 222); */
+    
+  }
+
+
+  .aboutUsBlurbOne p, .aboutUsBlurbTwo li {
+    font-size: 20px;
+  }
+
+
+
+
+}
+
+@media only screen and (max-width: 400px){
+  .aboutUsBlurbOne, .aboutUsBlurbTwo {
+    
+    padding: 4px;
+    
+   }
+
+}
+
+.hqOutline {
+  text-align: center;
+}
+
+.ncaHistory {
+  text-align: center;
+  
+}
+
+.ncaBranchesPic {
+
+width: 55%;
+
+}
+
+@media only screen and (max-width: 1110px) {
+  .ncaBranchesPic {
+
+    width: 95%;
+    
+    }
+
+
+}
+
+
+/* ABOUT US END */
+
+
+
+
+
+/* GLOW EFFECT TEST */
+
+/* .glow-effect:hover {
+
+  
+    
+    box-shadow: 0 20px 300px rgba(128, 227, 133, 0.4);
+    background-color: none;
+  
+} */
+
+
+/* ABOUT US END */
+
+
+/* CONTACT US PAGE */
+
+
+
+
+
+
+
+/* TESTING TEXT ON IMAGE */
+
+
+/* TESTING TEXT ON IMAGE */
+
+/* RAILCAR START PAGE  */
+
+.industryRailCarBanner {
+  background-image: url("./images/industry-page-banner-img/banner-railcar.jpg");
+  padding-top: 100px;
+}
+
+
+.industryRailCarBannerCover {
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  margin-top: 0;
+  padding-top: 45px ;
+  padding: 80px;
+  color:whitesmoke;
+  font-weight: 600;
+  font-size: 24px;
+  font-family: Raleway,sans-serif;
+  line-height: 1.384615384615385em;
+  text-shadow: 3px 4px 1px rgba(0,0,0,.4); 
+}
+
+
+.industryRailCarPageSeperator {
+  background-color: #4c87ca;
+  opacity: 1;
+  height: 2px;
+  width: 22px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;  
+}
+
+.bodyCont {
+  display: flex;
+  justify-content: center;
+
+}
+
+.table {
+  font-family: Tahoma, sans-serif;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+  width: 70%;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+
+  .table{
+    grid-template-columns: auto auto auto !important;
+    width: 91%;
+  }
+ 
+
+}
+@media only screen and (max-width: 600px) {
+
+  .table{
+    grid-template-columns: auto auto !important;
+    width: 100%;
+  }
+ 
+
+}
+
+
+.centerDiv{
+  margin: auto;
+  padding: 5px;
+
+}
+
+.table > div {
+  padding: 8px;
+margin: 0 20px;
+}
+
+.railProductsImgs {
+
+  width: 100%;
+
+}
+
+
+/* child needs to have this even if you chame the element or tag */
+.industryRailCarFlexMain > div {
+  flex: 0 0 22.5494%;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+
+.test {
+
+
+}
+
+
+
+/* RAILCAR END PAGE  */
+
+/* ------------------- */
+
+/* EXTRUDED RUBBER PAGE START */
+.extrudedRubberPage {
+
+  padding-top: 101px;
+/* needs to be like 200px at smaller sizes */
+}
+
+
+/* EXTRUDED RUBBER PAGE END */
+
+/* ------------------- */
+
+
+/* PRINTER START PAGE */
+.industryPrinterBanner {
+  background-image: url("./images/industry-page-banner-img/banner-printer.jpg");
+  padding-top: 100px;
+}
+
+
+.industryPrinterBannerCover {
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  margin-top: 0;
+  padding-top: 45px ;
+  padding: 80px;
+  color:whitesmoke;
+  font-weight: 600;
+  font-size: 24px;
+  font-family: Raleway,sans-serif;
+  line-height: 1.384615384615385em;
+  text-shadow: 3px 4px 1px rgba(0,0,0,.4); 
+}
+
+
+.industryPrinterPageSeperator {
+  background-color: #4c87ca;
+  opacity: 1;
+  height: 2px;
+  width: 22px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;  
+}
+
+.printerImgs {
+
+  width: 320px;
+  height: 200px;
+}
+
+/* PRINTER END PAGE */
+
+/* ---------------------------- */
+
+/* PLANT START */
+.industryPlantBanner {
+  background-image: url("./images/industry-page-banner-img/banner-plant.png");
+  padding-top: 100px;
+}
+
+
+.industryPlantBannerCover {
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  margin-top: 0;
+  padding-top: 45px;
+  padding: 80px;
+  color:whitesmoke;
+  font-weight: 600;
+  font-size: 24px;
+  font-family: Raleway,sans-serif;
+  line-height: 1.384615384615385em;
+  text-shadow: 3px 4px 1px rgba(0,0,0,.4); 
+}
+
+
+.industryPlantPageSeperator {
+  background-color: #4c87ca;
+  opacity: 1;
+  height: 2px;
+  width: 22px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;  
+}
+
+/* PLANT END */
+
+/* ------------------------------ */
+
+/* CONSTRUCTION START */
+
+.industryConstructionBanner {
+  background-image: url("./images/industry-page-banner-img/banner-construction.jpg");
+  padding-top: 100px;
+}
+
+
+.industryConstructionBannerCover {
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  margin-top: 0;
+  padding-top: 45px ;
+  padding: 80px;
+  color:whitesmoke;
+  font-weight: 600;
+  font-size: 24px;
+  font-family: Raleway,sans-serif;
+  line-height: 1.384615384615385em;
+  text-shadow: 3px 4px 1px rgba(0,0,0,.4); 
+}
+
+
+.industryConstructionPageSeperator {
+  background-color: #4c87ca;
+  opacity: 1;
+  height: 2px;
+  width: 22px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;  
+}
+
+
+/* CONSTRUCTION END */
+
+/* ------------------------------ */
+
+/* POF START */
+
+
+.industryPlasticOpticalFiberBanner {
+  background-image: url("./images/industry-page-banner-img/information-tech.png");
+  padding-top: 100px;
+}
+
+
+.industryPlasticOpticalFiberBannerCover {
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  margin-top: 0;
+  padding-top: 45px;
+  padding: 80px;
+  color:whitesmoke;
+  font-weight: 600;
+  font-size: 24px;
+  font-family: Raleway,sans-serif;
+  line-height: 1.384615384615385em;
+  text-shadow: 3px 4px 1px rgba(0,0,0,.4); 
+}
+
+
+.industryPlasticOpticalFiberPageSeperator {
+  background-color: #4c87ca;
+  opacity: 1;
+  height: 2px;
+  width: 22px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;  
+}
+
+
+.pofImgs {
+
+  width: 320px !important;
+  height: 200px !important;
+}
+
+
+/* POF END */
+
+/* ------------------------------ */
+
+/* EVENTS COMPONENT START */
+
+.eventsComponentSeperator {
+
+  background-color: #000000;
+  opacity: 1;
+  height: 2px;
+  width: 22px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;  
+}
+
+
+.eventsVariableComponent {
+
+}
+
+.ncaEvents {
+
+  display: flex;
+  width: 70%;
+
+}
+
+/* EVENTS COMPONENT END */
+
+
+/* -=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=- */
+
+.productPageBgColor {
+
+  background-color: #F6F6F6;
+  
+}
+
+.productImgViewer {
+
+  background-repeat: no-repeat;
+  background-size: 150px;
+  height: 130px;
+  width: 149px;
+}
+
+.productImgsMainPhoto {
+  width: 100%;
+  height: 534px;
+}
+
+.imgViewrBox {
+
+}
+
+.imgViewerFlex {
+  width: 66.5%;
+  display: flex;
+}
+  
+  .imgViewerTop {
+  
+  display: flex;
+  justify-content: left
+  }
+  
+  .imgViewerPreviewImgs {
+    width: 20%;
+    max-height: 78px;
+    overflow: hidden;
+   
+  }
+
+  .imgViewerPreviewImgs:hover {
+    opacity: .5;
+    /* transform: rotate(35turn); */
+    /* transition: 2s ease-in; */
+    
+    /* box-shadow: 1.5px 1.5px 5px;
+    transition: .3s ease-out ; */
+  }
+
+
+.productTextCentering {
+
+  margin: auto;
+
+  padding: 10px;
+  
+  }
+  .productDescripCentering {
+  margin: auto;
+  padding: 10px;
+  }
+
+.productDescriptions {
+  text-align: left;
+  font-size: 24px;
+}
+.productDescription1 {
+
+  text-align: left;
+  font-size: 24px;
+}
+
+/* @media only screen and (max-width: 1918px) {
+
+  .leftArrow {
+ 
+    right: 1427px !important;
+  }
+
+} */
+
+.leftArrow {
+  top: 45%;
+  right: 74%;
+}
+
+.leftArrowImg {
+  width: 51%;
+}
+
+
+.rightArrow {
+  top: 45%;
+  right: 22%;
+}
+
+.rightArrowImg {
+  width: 51%;
+}
+
+
+.imgViewerFwdBckBtn {
+  background-color: #afc7f0;
+  border-radius: 42px;
+  border: 7px solid #879bd6;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Impact;
+  font-size: 28px;
+  padding: 7px 14px;
+  text-decoration: none;
+  position: absolute;
+  opacity: .3;
+  transition: all 1s ease;
+  width: 4%; /*<--- NEW 6/16/2023*/
+  height: 10%;
+}
+  .imgViewerFwdBckBtn:hover {
+    background-color:#476e9e;
+    opacity: 1;
+    transition: all 1s ease;
+  }
+  /* .imgViewerFwdBckBtn:active {
+    position:relative;
+    top:1px;
+  } */
+
+
+  .productViewerBlockOverFlow {
+    max-width: 100%;
+    max-height: 534px;
+    overflow: hidden;
+  }
+  
+  .productPagesPaddingToEscapeSpacing {
+
+    padding-top: 101px;
+  }
+
+  .removeLinkStyling {
+    text-decoration: none;
+    color: inherit;
+    font-size: 24px;
+
+  }
+
+/*makes it so each page is centered ugh*/
+.productPagesFormatter {
+  width: 57.34%;
+  margin: auto;
+}
+
+.prodListItem {
+
+  padding: 10px 0;
+
+}
+
+.prodListBgColorGrey {
+  background-color: grey;
+}
+
+.selected {
+  opacity: .5;
+  box-shadow: 5px 5px 20px;
+
+}
+
+.testButtonBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testBtnLeft {
+
+  width: 13.5%;
+
+}
+
+.testBtnRight {
+  width: 13.5%;
+
+}
+
+.textButtonsTopBox {
+
+  border: 1px solid black;
+
+}
+
+
+.documentBtnHolderTop {
+
+  display: flex;
+  justify-content: right;
+}
+.dcoumentBtnHolder {
+display: flex;
+flex-direction: column;
+}
+
+  .documentBtn {
+    text-decoration: none;
+    border: 2px solid #d9d5d0;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px 5px;
+    background-color: #56A6FF;
+    box-shadow: 5px 5px 1px gray;
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 20px;
+    }
+  .documentBtn:hover {
+    color: black;
+    background-color: #56a5ff44;
+
+  }
+
+  .documentBtn:active {
+    box-shadow: 0px 0px;
+    transform: translate(5px, 5px);
+    border-style: inset;
+    
+  }
+  
+  .documentBtn:after {
+    box-shadow: 5px 5px;
+    transform: translate(0px, 0px);
+  }
+
+  .whoToEmailBlurb {
+
+    display: flex;
+    justify-content: right;
+    padding: 15px 0;
+    font-size: 15px;
+    
+    }
+
+    .plidcoRfqInstructionsMainBox {
+      display: flex;
+      justify-content: right;
+      text-align: left;
+    }
+    
+    .rfqInstrucitonsMiddleDivForColumnFlexBox {
+      text-align: left;
+      box-shadow: 5px 5px 1px gray;
+    }
+    
+    .rfqTitleBox {
+      border: 1px solid;
+      margin-bottom: 0px;
+      background-color: #56A6FF;
+      padding: 0 10px;
+      margin-top: 0px;
+    }
+    
+    .plidcoRfqInstructionsTable {
+      border-bottom: 1px solid black;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+      background-color: beige;
+    }
+
+    
+    .embededPlidcoRfqForm {
+
+
+      height: 1380px;
+      margin: 20px;
+      border: 1px solid black;
+      box-shadow: 5px 5px 1px gray;
+      }
+
+    .fixIndustriesPageOverFlow {
+      overflow: hidden;
+      padding-bottom: 12%;
+    }
+
+
+    .pofSliderImage {
+      width: 61% !important;
+    }
+
+
+.focusBorder {
+
+  border: 3px solid black;
+  background-color: thistle;
+  box-shadow: 5px 5px black;
+  margin: auto;
+  width: 500px;
+}
+
+.contactUsFlexBox {
+  margin: auto;
+  display: flex;
+  width: 70%;
+}
+
+.contactUsFlexBox > * {
+
+  margin: 20px;
+
+}
+
+@media only screen and (max-width: 1300px) {
+  .contactUsFlexBox {
+    margin: auto;
+    display: flex;
+    width: 97%;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.contactUsBox {
+
+  width: 79%
+}
+
+}
+
+/* -=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=- */
+
+/* FOOTER */
+
+
+.footer {
+  background-color: #4c87ca;
+  /* below added 6/13/2023 */
+  position: relative;
+  /* top: 240px; */
+ 
+
+}
+
+
+
+.footerTopBox {
+  display: flex;
+  justify-content: center;
+
+}
+
+.footerTopBox > div {
+  /* padding: 20px 185px 0 185px; */
+  color: white;
+  width: 25%;
+
+}
+
+
+/* copy all of this  except for the footerr for 1216 media query and work backwards. */
+@media only screen and (max-width: 600px) {
+.footerTopBox > div {
+  width: 65%;
+  padding: 0 4px;
+
+}
+ 
+
+.footer {
+  background-color: #4c87ca;
+  font-size: 12px;
+}
+
+
+.leftArrow {
+  top: 43%;
+  right: 79%;
+}
+
+
+.rightArrow {
+  top: 43%;
+  right: 9%;
+}
+
+
+.productPagesPaddingToEscapeSpacing {
+  padding-top: 175px !important;
+}
+
+
+.productPagesFormatter {
+  width: 95.3%;
+  margin: auto;
+}
+.productImgsMainPhoto {
+  width: 100%;
+  height: 185px;
+}
+  
+.productDescription1 {
+  text-align: left;
+  font-size: 24px;
+  width: 85%;
+  
+}
+
+.productTitle {
+  font-size: 11px;
+}
+
+.testBtnLeft {
+
+  width: 20%;
+
+}
+
+.testBtnRight {
+  width: 20%;
+
+}
+
+.embedRfqFormMainDiv {
+
+  display: none;
+
+}
+
+
+.whoToEmailBlurb {
+
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size:12px;
+  
+  }
+
+
+/* .industryRailCarBanner {
+  background-image: url(http://localhost:3000/static/media/banner-railcar.aad710a818e3bf8ce6bb.jpg);
+  padding-top: 159px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+}
+
+
+.industryRailCarBannerCover {
+  
+  margin-top: 0;
+  padding: 30px 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: Raleway,sans-serif;
+  line-height: 1.384615384615385em;
+  text-shadow: 3px 4px 1px rgba(0,0,0,.4);
+  position: relative;
+  top: 0px;
+} */
+
+
+/* .industryPrinterBanner {
+  background-image: url("./images/industry-page-banner-img/banner-printer.jpg");
+  padding-top: 159px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+}
+
+.industryPrinterBannerCover{
+
+  margin-top: 0;
+  padding: 30px 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: Raleway,sans-serif;
+  line-height: 1.384615384615385em;
+  text-shadow: 3px 4px 1px rgba(0,0,0,.4);
+  position: relative;
+  top: 0px;
+} */
+
+}
+
