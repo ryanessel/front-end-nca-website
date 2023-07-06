@@ -12,6 +12,11 @@ import PlidcoRFQ from '../../docs/pipeline-docs/plidco-rfq-and-export-compliance
 
 
 export default function SmithClamp() {
+  const changeTitle = (yourTitleString) => {
+    document.title = yourTitleString;
+  }
+
+changeTitle("Nishiyama | Smith+Clamp (Plidco Products) ");
   return (
     <div className='productPageBgColor'>
         <div className='productPagesFormatter productPagesPaddingToEscapeSpacing '>

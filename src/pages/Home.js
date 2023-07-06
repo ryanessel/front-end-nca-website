@@ -6,6 +6,13 @@ import EventsSection from '../components/EventsSection'
 import Footer from '../components/Footer'
 
 export default function Home() {
+
+  const changeTitle = (yourTitleString) => {
+    document.title = yourTitleString;
+  }
+
+changeTitle("Nishiyama | Home");
+
   return (
     <div className='ncaHome'> 
   

@@ -3,6 +3,11 @@ import Product from '../../components/Product'
 import heatShrink1 from '../../images/railcarPage-imgs/heatShrink-imgs/Heat-Shrink-Tube-1-1800x800.jpg'
 
 export default function HeatShrink() {
+  const changeTitle = (yourTitleString) => {
+    document.title = yourTitleString;
+  }
+
+changeTitle("Nishiyama | Heat Shrink");
   return (
     <div className='productPageBgColor'>
     <div className='heatShrinkPage productPagesPaddingToEscapeSpacing productPagesFormatter'>

@@ -10,13 +10,18 @@ import FRRSSinstall from '../../docs/pipeline-docs/flange-repair-split-sleeve-do
 import PlidcoBrochure from '../../docs/pipeline-docs/flange-repair-split-sleeve-docs/Plidco-brochure.f847b80e159e6de4c77e-1.pdf'
 
 export default function FlangeRepairSplitSleeve() {
+  const changeTitle = (yourTitleString) => {
+    document.title = yourTitleString;
+  }
+
+changeTitle("Nishiyama | FLANGE REPAIR SPLIT+SLEEVE (PLIDCO PRODUCTS) ");
   return (
     <div className='productPageBgColor'>
         <div className='productPagesFormatter productPagesPaddingToEscapeSpacing '>
 
         <Product 
         
-        productTitle={"Flange+Repair Ring (Plidco Products)"}
+        productTitle={"FLANGE REPAIR SPLIT+SLEEVE (PLIDCO PRODUCTS)"}
         titleClass={'productTitle'}
         productDescriptions={[]}
 

@@ -7,6 +7,11 @@ import extrudRub3 from '../../images/railcarPage-imgs/railcarProduct-imgs/Extrud
 
 
 export default function ExtrudedRubber() {
+  const changeTitle = (yourTitleString) => {
+    document.title = yourTitleString;
+  }
+
+changeTitle("Nishiyama | Extruded Rubber");
   return (
 
     <div className='productPageBgColor'>

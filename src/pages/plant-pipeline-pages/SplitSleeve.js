@@ -12,6 +12,11 @@ import SSinstalltion from '../../docs/pipeline-docs/split-sleeve-docs/SplitSleev
 import PlidcoRFQ from '../../docs/pipeline-docs/plidco-rfq-and-export-compliance/RFQ Form - QMF 151.pdf'
 
 export default function SplitSleeve() {
+  const changeTitle = (yourTitleString) => {
+    document.title = yourTitleString;
+  }
+
+changeTitle("Nishiyama | Split+Sleeve (Plidco Products) ");
   return (
     <div className='productPageBgColor'>
         <div className='productPagesFormatter productPagesPaddingToEscapeSpacing '>

@@ -4,6 +4,11 @@ import moldedRubber1 from '../../images/railcarPage-imgs/moldedRubber-imgs/Molde
 import moldedRubber2 from '../../images/railcarPage-imgs/moldedRubber-imgs/Molded-Rubber-2.jpg'
 
 export default function MoldedRubber() {
+  const changeTitle = (yourTitleString) => {
+    document.title = yourTitleString;
+  }
+
+changeTitle("Nishiyama | Molded Rubber");
   return (
     <div className='productPageBgColor'>
     <div className='moldedRubberPage productPagesPaddingToEscapeSpacing productPagesFormatter'>

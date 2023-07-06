@@ -5,6 +5,11 @@ import metalFab2 from '../../images/railcarPage-imgs/metalFabrication-imgs/Metal
 import metalFab3 from '../../images/railcarPage-imgs/metalFabrication-imgs/Metal-Fabrication-3-1800x800.jpg'
 
 export default function MetalFabrication() {
+  const changeTitle = (yourTitleString) => {
+    document.title = yourTitleString;
+  }
+
+changeTitle("Nishiyama | Metal Fabrication");
   return (
     <div className='productPageBgColor'>
     <div className='metalFabricationPage productPagesPaddingToEscapeSpacing productPagesFormatter'>

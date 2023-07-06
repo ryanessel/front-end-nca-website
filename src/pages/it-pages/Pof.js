@@ -5,13 +5,18 @@ import Product from '../../components/Product'
 import PofSpecs from '../../images/it-imgs/pof-imgs/Main-Sepcifications.png'
 
 export default function Pof() {
+  const changeTitle = (yourTitleString) => {
+    document.title = yourTitleString;
+  }
+
+changeTitle("Nishiyama | POF (PLASTIC OPTICAL FIBER) ");
   return (
     <div className='productPageBgColor'>
         <div className='productPagesFormatter productPagesPaddingToEscapeSpacing '>
 
         <Product 
         
-        productTitle={"Nut Type Fittings for Multi-Layer Tubing (HAKKO EIGHTRON)"}
+        productTitle={"POF (PLASTIC OPTICAL FIBER)"}
         titleClass={'productTitle'}
         productDescriptions={[]}
 

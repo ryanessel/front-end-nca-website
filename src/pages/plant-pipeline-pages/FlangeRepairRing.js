@@ -14,6 +14,11 @@ import PlidcoRFQ from '../../docs/pipeline-docs/plidco-rfq-and-export-compliance
 import Product from '../../components/Product'
 
 export default function FlangeRepairRing() {
+  const changeTitle = (yourTitleString) => {
+    document.title = yourTitleString;
+  }
+
+changeTitle("Nishiyama | Flange+Repair Ring (Plidco Products) ");
   return (
     <div className='productPageBgColor'>
         <div className='productPagesFormatter productPagesPaddingToEscapeSpacing '>

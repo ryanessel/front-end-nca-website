@@ -5,6 +5,11 @@ import flexCon2 from '../../images/railcarPage-imgs/flexibleConduit-imgs/Felexib
 import flexCon3 from '../../images/railcarPage-imgs/flexibleConduit-imgs/Felexible-conduit-3-1800x800.jpg'
 
 export default function FlexibleConduits() {
+  const changeTitle = (yourTitleString) => {
+    document.title = yourTitleString;
+  }
+
+changeTitle("Nishiyama | Flexible Conduits");
   return (
     <div className='productPageBgColor'>
     <div className='flexibleConduitsPage productPagesPaddingToEscapeSpacing productPagesFormatter'>

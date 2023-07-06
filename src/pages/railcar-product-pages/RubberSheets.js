@@ -3,6 +3,11 @@ import Product from '../../components/Product'
 import rubberSheets from "../../images/railcarPage-imgs/rubberSheets-imgs/Rubber-Sheet-1-1640x800.jpg"
 
 export default function RubberSheets() {
+  const changeTitle = (yourTitleString) => {
+    document.title = yourTitleString;
+  }
+
+changeTitle("Nishiyama | Rubber Sheets");
   return (
     <div className='productPageBgColor'>
     <div className='rubberSheetsPage productPagesPaddingToEscapeSpacing productPagesFormatter'>

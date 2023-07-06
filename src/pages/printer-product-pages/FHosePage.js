@@ -9,6 +9,11 @@ import cHose from '../../images/printerPage-imgs/F-hose/C-Hakko-fitting-3.jpg'
 import FhoseFittingData from '../../docs/printer-docs/F-eng_E-FTS-F2018-6nishiyama-profile-added.pdf'
 
 export default function FHosePage() {
+  const changeTitle = (yourTitleString) => {
+    document.title = yourTitleString;
+  }
+
+changeTitle("Nishiyama | Nut Type Fittings for Multi-Layer Tubing (HAKKO EIGHTRON) ");
   return (
     <div className='productPageBgColor'>
     <div className='productPagesFormatter productPagesPaddingToEscapeSpacing '>

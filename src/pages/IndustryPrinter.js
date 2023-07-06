@@ -9,6 +9,11 @@ import nutFittings from '../images/printerPage-imgs/F-Hakko-fitting-0.jpg'
 import { Link } from 'react-router-dom'
 
 export default function IndustryPrinter() {
+  const changeTitle = (yourTitleString) => {
+    document.title = yourTitleString;
+  }
+
+changeTitle("Nishiyama | Printer Eequipment");
 
    const linkToTop = () => {
       window.scroll(0, 0);

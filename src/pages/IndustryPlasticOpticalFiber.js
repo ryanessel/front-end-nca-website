@@ -4,6 +4,12 @@ import { Link } from 'react-router-dom';
 
 export default function IndustryPlasticOpticalFiber() {
 
+  const changeTitle = (yourTitleString) => {
+    document.title = yourTitleString;
+  }
+
+changeTitle("Nishiyama | IT");
+
   const linkToTop = () => {
     window.scroll(0, 0);
 }

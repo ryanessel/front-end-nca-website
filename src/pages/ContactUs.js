@@ -3,6 +3,11 @@ import React from 'react'
 import ContactUsForm from '../components/ContactUsForm'
 
 export default function ContactUs() {
+  const changeTitle = (yourTitleString) => {
+    document.title = yourTitleString;
+  }
+
+changeTitle("Nishiyama | Contact Us");
   return (
     <div className='contactUsMainBox'>
     <h1>ContactUs</h1>

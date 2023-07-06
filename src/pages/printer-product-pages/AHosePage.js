@@ -9,13 +9,19 @@ import cHose from '../../images/printerPage-imgs/A-hose/C-ultra-soft-black-fitti
 import AhoseDataSheet from '../../docs/printer-docs/A-HAKKO_E-SJUS-BK_Flexible-Fluorine-ETFE-Resin-Tubing-Black-Ultra-Soft-Type_June-2022.pdf'
 
 export default function AHosePage() {
+  const changeTitle = (yourTitleString) => {
+    document.title = yourTitleString;
+  }
+
+changeTitle("Nishiyama | Flexible Fluorine (ETFE) Resin Tubing Black (Ultra Soft Type) (HAKKO EIGHTRON) ");
+
   return (
     <div className='productPageBgColor'>
         <div className='productPagesFormatter productPagesPaddingToEscapeSpacing '>
 
         <Product 
         
-        productTitle={"Nut Type Fittings for Multi-Layer Tubing (HAKKO EIGHTRON)"}
+        productTitle={"FLEXIBLE FLUORINE (ETFE) RESIN TUBING BLACK (ULTRA SOFT TYPE) (HAKKO EIGHTRON)"}
         titleClass={'productTitle'}
         productDescriptions={[]}
 

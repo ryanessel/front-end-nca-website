@@ -9,6 +9,11 @@ import cHose from '../../images/printerPage-imgs/E-hose/C-E-PD-3.jpg'
 import EhoseFittingData from '../../docs/printer-docs/E-mm_eng_E-PDnishiyama-profile-added.pdf'
 
 export default function EHosePage() {
+  const changeTitle = (yourTitleString) => {
+    document.title = yourTitleString;
+  }
+
+changeTitle("Nishiyama | Flexible Fluorine (PVDF) Resin Tubing Clear (HAKKO EIGHTRON) ");
   return (
     <div className='productPageBgColor'>
     <div className='productPagesFormatter productPagesPaddingToEscapeSpacing '>

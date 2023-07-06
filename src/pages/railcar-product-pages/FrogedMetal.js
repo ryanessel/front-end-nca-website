@@ -5,6 +5,12 @@ import metal2 from '../../images/railcarPage-imgs/forgedMetal-imgs/Forged-Metal-
 import metal3 from '../../images/railcarPage-imgs/forgedMetal-imgs/Forged-Metal-3-1800x800.jpg'
 
 export default function FrogedMetal() {
+  const changeTitle = (yourTitleString) => {
+    document.title = yourTitleString;
+  }
+
+changeTitle("Nishiyama | Forged Metal");
+  
   return (
     <div className='productPageBgColor'>
     <div className='forgedMetalPage productPagesPaddingToEscapeSpacing productPagesFormatter'>

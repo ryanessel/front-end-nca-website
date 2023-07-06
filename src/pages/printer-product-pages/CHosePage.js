@@ -11,6 +11,11 @@ import ChoseMmData from '../../docs/printer-docs/c-hose-multiple-docs/small-vers
 import ChoseTestData from '../../docs/printer-docs/c-hose-multiple-docs/IJP-リーフレット-Data-英語版_最終データ_20200330.pdf'
 
 export default function CHosePage() {
+  const changeTitle = (yourTitleString) => {
+    document.title = yourTitleString;
+  }
+
+changeTitle("Nishiyama | Flexible Fluorine (ETFE) Resin Tubing Black (HAKKO EIGHTRON) ");
   return (
     <div className='productPageBgColor'>
     <div className='productPagesFormatter productPagesPaddingToEscapeSpacing '>

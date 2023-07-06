@@ -14,6 +14,11 @@ import moldlessRub from '../images/railcarPage-imgs/Moldless-Rubber-1-320x200.jp
 import heatShrink from '../images/railcarPage-imgs/Heat-Shrink-Tube-1-320x200.jpg'
 
 export default function IndustryRailcar() {
+   const changeTitle = (yourTitleString) => {
+      document.title = yourTitleString;
+    }
+  
+  changeTitle("Nishiyama | Railcar Industry");
 
    const linkToTop = () => {
       window.scroll(0, 0);
@@ -92,7 +97,7 @@ export default function IndustryRailcar() {
         <div>
            <Link onClick={()=>{linkToTop()}} className='removeLinkStyling' to={"/industries/railcar/heatShrink"}>
            <img src={heatShrink} className='railProductsImgs'></img>
-           <p>Extruded Rubber</p> 
+           <p>Heat Shrink Tube</p> 
            </Link>   
         </div>
    

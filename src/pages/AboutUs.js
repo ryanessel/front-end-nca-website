@@ -4,6 +4,14 @@ import ncaBranchesImg from '../images/nca-branches.png'
 import MainPageIndustriesSection from '../components/MainPageIndustriesSection'
 
 export default function AboutUs() {
+  
+  const changeTitle = (yourTitleString) => {
+    document.title = yourTitleString;
+  }
+
+changeTitle("Nishiyama | About Us");
+
+
   return (
     <div className='aboutUsMainBox'>
       <h1>AboutUs</h1>

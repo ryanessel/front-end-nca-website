@@ -4,6 +4,11 @@ import soundAbsorber1 from '../../images/railcarPage-imgs/soundAbsorber-imgs/Sou
 import soundAbsorber2 from '../../images/railcarPage-imgs/soundAbsorber-imgs/Sound-Absorber-2-1200x800.jpg'
 
 export default function SoundAbsorber() {
+  const changeTitle = (yourTitleString) => {
+    document.title = yourTitleString;
+  }
+
+changeTitle("Nishiyama | Sound Absorber");
   return (
     <div className='productPageBgColor'>
     <div className='soundAbsorberPage productPagesPaddingToEscapeSpacing productPagesFormatter'>

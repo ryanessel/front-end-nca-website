@@ -7,6 +7,11 @@ import SC from '../images/plant-imgs/SmithClamp-feature.jpg'
 import { Link } from 'react-router-dom'
 
 export default function IndustryPlant() {
+  const changeTitle = (yourTitleString) => {
+    document.title = yourTitleString;
+  }
+
+changeTitle("Nishiyama | Plant/Pipeline");
 
    const linkToTop = () => {
       window.scroll(0, 0);

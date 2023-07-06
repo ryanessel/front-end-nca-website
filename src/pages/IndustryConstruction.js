@@ -6,6 +6,11 @@ import forgedMet from '../images/railcarPage-imgs/Forged-Metal-1-1320x200-1.jpg'
 import { Link } from 'react-router-dom'
 
 export default function IndustryConstruction() {
+   const changeTitle = (yourTitleString) => {
+      document.title = yourTitleString;
+    }
+  
+  changeTitle("Nishiyama | Construction");
   
    const linkToTop = () => {
       window.scroll(0, 0);

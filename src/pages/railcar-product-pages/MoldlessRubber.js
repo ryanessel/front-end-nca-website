@@ -8,6 +8,11 @@ import moldlessRub3 from '../../images/railcarPage-imgs/moldlessRubber-imgs/Mold
 
 
 export default function MoldlessRubber() {
+  const changeTitle = (yourTitleString) => {
+    document.title = yourTitleString;
+  }
+
+changeTitle("Nishiyama | Moldless Rubber");
   return (
     <div className='productPageBgColor'>
     <div className='moldlessRubberPage productPagesPaddingToEscapeSpacing productPagesFormatter'>

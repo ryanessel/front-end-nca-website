@@ -11,6 +11,11 @@ import DhoseMmData from '../../docs/printer-docs/d-hose-multiple-docs/HAKKO_E-SJ
 import DhoseTestData from '../../docs/printer-docs/d-hose-multiple-docs/IJP-リーフレット-Data-英語版_最終データ_20200330.pdf'
 
 export default function DHosePage() {
+  const changeTitle = (yourTitleString) => {
+    document.title = yourTitleString;
+  }
+
+changeTitle("Nishiyama | Flexible Fluorine (ETFE) Resin Tubing Clear (HAKKO EIGHTRON) ");
   return (
     <div className='productPageBgColor'>
     <div className='productPagesFormatter productPagesPaddingToEscapeSpacing '>
