@@ -564,6 +564,8 @@ height: 200px;;
   
   }
 
+  
+
 
 }
 
@@ -1185,6 +1187,24 @@ margin: 0 20px;
   width: 57.34%;
   margin: auto;
 }
+
+@media only screen and (max-width: 1000px) {
+
+  .productPagesFormatter {
+    width: 90.34%;
+    margin: auto;
+}
+
+.productPagesPaddingToEscapeSpacing {
+    padding-top: 175px;
+}
+
+
+
+}
+
+
+
 
 .prodListItem {
 
