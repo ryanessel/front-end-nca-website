@@ -37,11 +37,10 @@ export default function MainPageIndustriesSection() {
   return (
     <div className='homeIndustriesMainBox'>
         
-        MainPageIndustriesSection
+       
 
 
-
-        <div>INDUSTREIS</div>
+        <h1>INDUSTRIES</h1>
         <div className="industriesSperator"></div>
         <div className='industriesBoxHolder'>
         

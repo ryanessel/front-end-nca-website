@@ -21,24 +21,24 @@ changeTitle("Nishiyama | Home");
 {/* ncaEvents center */}
 <EventsSection>
   
+
+{/* 
+Events Template Example: Do it Like Below Please
+
+  eventPostedDate = Date Posted: December 1st 2023
+  eventTitleAndDate = OTC (OFFSHORE TRADE CONFERENCE)
+  eventBlurb = We will attend OTC 2023 from May 1st - May 2nd
+  
+ */}
+
  
    <Events 
-     eventPostedDate={" December 1st 2023"}
-     eventTitleAndDate={"OTC (OFFSHORE TRADE CONFERENCE)"}  
-     eventBlurb={"We will attend OTC 2023 from May 1st - May 2nd"}   
+     eventPostedDate={" TBD EVENT DATE"}
+     eventTitleAndDate={"TBD EVENT TITLE"}  
+     eventBlurb={"TBD EVENT INFO"}   
    />
 
-   <Events 
-     eventPostedDate={" December 1st 2023"}
-     eventTitleAndDate={"OTC (OFFSHORE TRADE CONFERENCE)"}  
-     eventBlurb={"We will attend OTC 2023 from May 1st - May 2nd"}   
-   />
 
-   <Events 
-     eventPostedDate={" December 1st 2023"}
-     eventTitleAndDate={"OTC (OFFSHORE TRADE CONFERENCE)"}  
-     eventBlurb={"We will attend OTC 2023 from May 1st - May 2nd"}   
-   />
 
 </EventsSection>
    </div>
