@@ -35,12 +35,19 @@ changeTitle("Nishiyama | IT");
 
 <div className='table centerDiv'>
 {/* maybe <p>s need to have text aling left; may not matter though */}
+{/* 
+the link item is this entire div.
+so copy and paste it and edit the link inside to make a link to a new webpage
+*/}
         <div>
         <Link onClick={()=>{linkToTop()}}  className='removeLinkStyling' to={"/industries/informationTech/pof"}>
            <img src={POF} className='railProductsImgs pofImgs'></img>
            <p>POF (PLASTIC OPTICAL FIBER)</p>
         </Link>    
         </div>
+
+
+  
 
 
        

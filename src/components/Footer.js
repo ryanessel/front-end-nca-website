@@ -20,7 +20,10 @@ export default function Footer() {
     <div className='footerAddressLink'>
       <p>📍</p>
     111 Great Neck Road, Suite 510, Great Neck, NY 11021
+    <p className='websiteCredit'>Website rebuilt from the ground up in Reactjs by <a className='websiteCredit' href="https://github.com/ryanessel">Ryan Essel</a></p>
     </div>
+
+    
 
     <div className='footerNcaSalesEmail'>
     <p>✉</p>

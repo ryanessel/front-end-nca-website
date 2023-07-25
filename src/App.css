@@ -1408,6 +1408,11 @@ flex-direction: column;
 
 }
 
+.websiteCredit {
+color: black;
+text-decoration: none;
+}
+
 
 /* copy all of this  except for the footerr for 1216 media query and work backwards. */
 @media only screen and (max-width: 600px) {
