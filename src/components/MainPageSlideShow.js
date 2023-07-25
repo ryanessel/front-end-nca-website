@@ -11,7 +11,7 @@ const img2 = slide2;
 const img3 = slide3;
 const img4 = slide4;
 
-const imgData = [img1, img2, img3, img4];
+const imgData = [ img2, img1, img3, img4];
 
 const spanStyle = {
   padding: '20px',
