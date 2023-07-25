@@ -13,7 +13,7 @@ export default function Events({ eventPostedDate, eventTitleAndDate, eventDate, 
        <div className="eventsComponentSeperator"></div>
        <p>{eventBlurb}</p>
        {/* test; format */}
-       <p>{children}</p>  {/* gets the stuf between the component tag*/}
+       <p>{children}</p>  {/* gets the stuf between the "EventsSection" component tag*/}
         
 
 

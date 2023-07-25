@@ -6,6 +6,7 @@ export default function EventsSection({children}) {
   <div className='ncaEventsMain'>
     <div className="homeHorizontalRule" ></div>    
     <h1>NEWS & Events</h1>
+    <div className="industriesSperator"></div>
     <div className='ncaEvents center'>
     {children}
     </div>

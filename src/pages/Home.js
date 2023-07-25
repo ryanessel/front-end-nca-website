@@ -38,6 +38,8 @@ Events Template Example: Do it Like Below Please
      eventBlurb={"TBD EVENT INFO"}   
    />
 
+   
+
 
 
 </EventsSection>
