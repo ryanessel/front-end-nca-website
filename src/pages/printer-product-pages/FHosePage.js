@@ -36,11 +36,11 @@ changeTitle("Nishiyama | Nut Type Fittings for Multi-Layer Tubing (HAKKO EIGHTRO
        productSlideImgs={[ 
          aHose,
          bHose,
-         cHose
+         cHose,
           ]}
           
    //use this to pass link to pdfs etc
-       linksToDocuments={[FhoseFittingData]}
+       linksToDocuments={[FhoseFittingData]}// for blank prop, use [] with nothing in it.
        documentText={['FITTING DATA' ]}
        whoToEmailMsg={[
         'Please email sales with any inquires related to these products: ',

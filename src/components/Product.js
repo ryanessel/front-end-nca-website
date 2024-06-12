@@ -127,8 +127,14 @@ return (
         If it doesn't exist it won't appear. This allows some customization
         */}
         {/* need nested flex box so you can make it a column */}
+     
         <div className='documentBtnHolderTop' >
         <div className='dcoumentBtnHolder'>
+          {/* might be better to {linksToDocuments && <content> }
+              howver, it needs to wrap the div with the className "dcoumentBtnHolderTop"
+          */}
+      
+    
         {linksToDocuments[0] && <a className={'documentBtn'} href={linksToDocuments[0]} target="_blank">{documentText && documentText[0]}</a>}
        {linksToDocuments[1] &&  <a className={'documentBtn'} href={linksToDocuments[1]} target="_blank">{documentText && documentText[1]}</a>}
         { linksToDocuments[2] && <a className={'documentBtn'} href={linksToDocuments[2]} target="_blank">{documentText && documentText[2]}</a>}
@@ -142,9 +148,11 @@ return (
         { linksToDocuments[6] && <a className={'documentBtn'} href={linksToDocuments[6]} target="_blank">{documentText && documentText[6]}</a>}
 
         { linksToDocuments[7] && <a className={'documentBtn'} href={linksToDocuments[7]} target="_blank">{documentText && documentText[7]}</a>}
-        </div>
-        </div>
 
+        
+        </div>
+        </div>
+ 
 
         {rfqInstructions &&
         

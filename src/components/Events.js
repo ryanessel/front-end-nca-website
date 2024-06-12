@@ -14,7 +14,7 @@ export default function Events({ eventPostedDate, eventTitleAndDate, eventDate, 
        <p>{eventBlurb}</p>
        {/* test; format */}
        <p>{children}</p>  {/* gets the stuf between the "EventsSection" component tag*/}
-        
+       
 
 
 

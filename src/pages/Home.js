@@ -36,9 +36,15 @@ Events Template Example: Do it Like Below Please
      eventPostedDate={" TBD EVENT DATE"}
      eventTitleAndDate={"TBD EVENT TITLE"}  
      eventBlurb={"TBD EVENT INFO"}   
-   />
+   >
+       {/* put links i here or custom */}
+       {/* EXAMPLE BELOW */}
+       {/* <a href='https://www.google.com/'>Website goes to google.com</a> */}
+       
+    </Events>
 
-   
+
+
 
 
 

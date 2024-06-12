@@ -41,7 +41,7 @@ so copy and paste it and edit the link inside to make a link to a new webpage
 */}
         <div>
         <Link onClick={()=>{linkToTop()}}  className='removeLinkStyling' to={"/industries/informationTech/pof"}>
-           <img src={POF} className='railProductsImgs pofImgs'></img>
+           <img src={POF} alt="pof-img" className='railProductsImgs pofImgs'></img>
            <p>POF (PLASTIC OPTICAL FIBER)</p>
         </Link>    
         </div>
