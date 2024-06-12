@@ -25,10 +25,7 @@ changeTitle("Nishiyama | Nut Type Fittings for Multi-Layer Tubing (HAKKO EIGHTRO
     productDescriptions={[]}
 
       productDetails={[
-         'For Pipes such as Industrial Machines and Molding Machines', 
-         'For Pipes such as Precision Machines and Semiconductor-related Equipment', 
-         'For Pipes of Beverage, Cosmetics, Pharmaceutical, and Alcohol',
-         'Manufacturing Equipment of Chemicals, Waste Oil, Waste Fluids, and Organic Solvents',
+        'For Industrial Ink-Jet Printers (For UV Ink Supplying tubes) -※ONLY FOR PRINTERS',  
     
        
        ]}

@@ -27,17 +27,15 @@ changeTitle("Nishiyama | Flexible Fluorine (ETFE) Resin Tubing Black (HAKKO EIGH
     productDescriptions={[]}
 
       productDetails={[
-         'For Industrial Ink-Jet Printers (For UV Ink Supplying Pipes)', 
-         'For Transferring UV-based Paints and Solvents of the Painting Equipment', 
-         'For Transferring Chemicals used in Laboratory Equipment',
-         ' For Transferring Chemicals used in Semiconductor-Related Devices and Flat-Panel Display (FPD) Manufacturing Devices',
-         'For Filling Line of UV Paints and UV-based Adhesives',
+         'For Industrial Ink-Jet Printers (For UV Ink Supplying tubes) -※ONLY FOR PRINTERS', 
+   
+       
        
        ]}
 
        productSlideImgs={[ 
          aHose,
-         bHose,
+        //  bHose, -- CHIRORI: this img has outdated info
          cHose
           ]}
           

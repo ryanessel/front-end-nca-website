@@ -24,18 +24,7 @@ changeTitle("Nishiyama | Flexible Fluorine (ETFE) Resin Tubing Clear (Ultra Soft
     productDescriptions={[]}
 
       productDetails={[
-         'For Industrial Ink-Jet Printers (For Ink-Supplying Pipes)', 
-         'For Transferring Paints, Solvents, and Adhesives', 
-         'For Transferring Chemicals used in Laboratory Equipment',
-         'For Transferring Chemicals used in Semiconductor-Related Devices and Flat Panel Display (FPD) Manufacturing Devices',
-         'For Transferring Fatty Acid Ester such as Biofuel (BDF)',
-         'For Transferring Chemical and Industrial Wastes',
-         'For Transferring Alcohol, Cosmetics, and Chemicals',
-         'For Transferring Chemicals used in Medical Equipment, Endoscope, and so on',
-         'For Transferring Chemicals used in Manufacturing Fuel Cell and Pure Water',
-         'For Filling Line of Paints and Adhesives',
-         'For Filling Line of Fragrance, Colorant, and Additive',
-         'For Air Supplying Pipes at Clean Room'
+        'For Industrial Ink-Jet Printers (For UV Ink Supplying tubes) -※ONLY FOR PRINTERS',  
          
        ]}
 

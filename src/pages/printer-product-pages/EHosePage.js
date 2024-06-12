@@ -25,14 +25,7 @@ changeTitle("Nishiyama | Flexible Fluorine (PVDF) Resin Tubing Clear (HAKKO EIGH
     productDescriptions={[]}
 
       productDetails={[
-         'For Industrial Water-based Ink-Jet Printers (For Ink-Supplying Pipes)', 
-         'For Transferring Chemicals used in Laboratory Equipment', 
-         'For Transferring Chemicals used in Semiconductor-Related Devices and Flat-Panel Display (FPD) Manufacturing Device',
-         'For Transferring Beverage and Food',
-         ' For Transferring Alcohol, Cosmetics, and Chemicals',
-         'For Transferring Chemicals used in Medical Equipment, Endoscope, and so on',
-         'For Transferring Chemicals used in Manufacturing Fuel Cell and Pure Water',
-         'For Transferring Air at Clean Room',
+        'For Industrial Ink-Jet Printers (For UV Ink Supplying tubes) -※ONLY FOR PRINTERS',  
 
        
        ]}
