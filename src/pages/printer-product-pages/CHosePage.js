@@ -35,7 +35,7 @@ changeTitle("Nishiyama | Flexible Fluorine (ETFE) Resin Tubing Black (HAKKO EIGH
 
        productSlideImgs={[ 
          aHose,
-        //  bHose, -- CHIRORI: this img has outdated info
+        //  bHose, -- CHIRORI: this img has outdated info; she will send updated picture
          cHose
           ]}
           

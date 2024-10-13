@@ -37,6 +37,10 @@ const closeIndustryMenu = () => {
 
 {/* HEADER TOP */}
     <div className='navBarTop'>
+
+    <Link to="https://nca-ecommerce-front-end.onrender.com/customerLogin" className="orderHakkoTubes">
+  ORDER HAKKO TUBES HERE!
+</Link>
         <div className='navTopPhoneAndMap navTop1'> ☏: 516-466-7570</div>
         <div className='navTopPhoneAndMap navTop2'> <img className='mapMarker' target="_blank" src={test}/>:<a className='ncaGmapLink' href="https://www.google.com/maps/place/Nishiyama+Corporation+of+America/@40.7853772,-73.7320644,17z/data=!3m2!4b1!5s0x89c289971611db27:0x29654836a99a7fc1!4m6!3m5!1s0x89c28996d6e94a69:0xef082b3e4826d08!8m2!3d40.7853732!4d-73.7294895!16s%2Fg%2F1tq6k_k5">111 Great Neck Road, Suite 510, Great Neck, NY 11021 </a></div>
     </div>

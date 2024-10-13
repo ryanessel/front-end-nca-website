@@ -84,6 +84,23 @@
 
 }
 
+
+.orderHakkoTubes {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(0, 115, 230, 0.6);
+  padding: 5px 50px 5px 0px;
+  transition: all 0.3s ease-in-out;
+}
+
+.orderHakkoTubes:hover {
+  text-shadow: 0 0 25px rgba(255, 255, 255, 1), 0 0 50px rgba(0, 115, 230, 1);
+  color: #e0f7ff; 
+  cursor: pointer;
+}
+
 .ncaGmapLink {
   text-decoration: none;
   color: inherit;
