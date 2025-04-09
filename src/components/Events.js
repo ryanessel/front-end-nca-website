@@ -7,7 +7,7 @@ export default function Events({ eventPostedDate, eventTitleAndDate, eventDate, 
   return (
     <div className='eventsVariableComponent center'>
         
-       <p><strong>Date Posted:</strong>{eventPostedDate} </p>
+      {eventPostedDate &&  <p><strong>Date Posted:</strong>{eventPostedDate} </p>}
        <h2>{eventTitleAndDate}</h2> 
        <div>{eventDate}</div>
        <div className="eventsComponentSeperator"></div>
