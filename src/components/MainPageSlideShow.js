@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import 'react-slideshow-image/dist/styles.css';
 import { Slide } from 'react-slideshow-image';
 import slide1 from "../images/slide-show-images/homeslide-1.jpg";
@@ -28,6 +28,33 @@ const divStyle = {
   transition: 'transform 5s ease', // Add transition property
 };
 
+
+
+export default function MainPageSlideShow() {
+  const [activeIndex, setActiveIndex] = useState(0); // State to track active slide index
+
+// NEW
+  const [autoPlay, setAutoPlay] = useState(true);
+
+
+  const handleSlideChange = (oldIndex, newIndex) => {
+  
+    setActiveIndex(newIndex); // Update active slide index on slide change
+  };
+
+  useEffect(()=>{
+    const handleVisibility = () => {
+      setAutoPlay(!document.hidden);
+    };
+
+    document.addEventListener('visibilitychange', handleVisibility);
+    return () =>{
+      document.removeEventListener('visibilitychange', handleVisibility);
+    };
+
+
+  },[])
+
 const properties = {
   duration: 5000,
   transitionDuration: 700,
@@ -36,16 +63,8 @@ const properties = {
   arrows: true,
   pauseOnHover: false,
   scale: 1, // Set initial scale value to 1
-  autoPlay: true
+  autoPlay: autoPlay
 };
-
-export default function MainPageSlideShow() {
-  const [activeIndex, setActiveIndex] = useState(0); // State to track active slide index
-
-  const handleSlideChange = (oldIndex, newIndex) => {
-  
-    setActiveIndex(newIndex); // Update active slide index on slide change
-  };
 
   return (
     <div className='mainPageSlideShowTopDiv containerSlide'>
