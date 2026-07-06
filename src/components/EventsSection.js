@@ -8,6 +8,7 @@ export default function EventsSection({children}) {
     <h1>NEWS & Events</h1>
     <div className="industriesSperator"></div>
     <div className='ncaEvents center'>
+      {/* Children are in Home.js at the bottom inside <Event> </Event> */}
     {children}
     </div>
     </div>

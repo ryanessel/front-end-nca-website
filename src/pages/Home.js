@@ -37,43 +37,9 @@ Events Template Example: Do it Like Below Please
  
    <Events 
 
-     eventTitleAndDate={"PRINTING UNITED EXPO 2025"}  
+     eventTitleAndDate={"TBA"}  
 
    >
-
-<div>
-  <img src={colorPrintUnitedLogo} alt="Print United Logo" style={{ width: '300px', height: 'auto' }} />
-</div>
-
-
- <div>
-  The Nishiyama Corporation of America is proud to announce our participation in Printing United Expo 2025! 
-  Come visit us at Booth #2582. We're excited to connect 
-  with industry professionals and showcase our products
-  </div>
-<hr></hr>
-  <div>
-    <b>Event Date(s):</b>  Oct. 22-24, 2025
-  </div>
-
-  <div>
-    <b>Event Location: </b>  Orlando, FL
-  </div>
-
-  <div>
-    <b>Booth Number: </b>  2582
-  </div>
-<div>
-  <b>Website</b> Locate Booth <a href='https://pru25.mapyourshow.com/8_0/exhview/index.cfm?orsearchtype0=booth&orsearchvalue0=2582&orsearchdisplay0=Booths&orsearchvaluedisplay0=2582#0'>Here!</a>
-
-</div>
-
-<br></br>
-<div>
-  <b>*Link Note: </b>After clicking on the link, please click our comapny name which will be listed on the right side of the page and it will take you to our booth as seen below:
- <img src ={eventHelpImg}/>
-</div>
-
 
 
        {/* put links i here or custom */}
